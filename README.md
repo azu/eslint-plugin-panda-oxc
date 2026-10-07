@@ -2,10 +2,21 @@
 
 # @azu/eslint-plugin-panda-oxc
 
-Fork of [chakra-ui/eslint-plugin-panda](https://github.com/chakra-ui/eslint-plugin-panda). Provides oxlint-compatible
-Panda CSS rule implementations as a drop-in replacement for `@pandacss/eslint-plugin`.
+## Maintenance status
 
-## Getting Started
+This fork is no longer maintained. Please use the official
+[@pandacss/eslint-plugin](https://www.npmjs.com/package/@pandacss/eslint-plugin) instead.
+
+[Panda CSS v2](https://panda-css.com/blog/panda-css-v2#eslint-plugin) includes an official plugin that uses the same
+extraction engine as the build and supports both ESLint and oxlint. For oxlint, use `@pandacss/eslint-plugin/oxlint`.
+See the [official linting guide](https://panda-css.com/docs/get-started/linting) for setup and supported rules.
+
+The documentation below is kept for users of this fork's existing releases.
+
+Fork of [chakra-ui/eslint-plugin-panda](https://github.com/chakra-ui/eslint-plugin-panda). Provided oxlint-compatible
+Panda CSS rule implementations based on the original `@pandacss/eslint-plugin`.
+
+## Legacy usage
 
 ### Installation
 
